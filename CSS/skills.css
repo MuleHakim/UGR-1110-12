@@ -1,0 +1,272 @@
+.container__main--p-bottom {
+    position: relative;
+    margin-right: 10px;
+    text-align: right;
+}
+.container__main--p-top {
+    position: relative;
+    bottom: 10px;
+    text-align: left;   
+}
+.container__main p a {
+    color: black;
+}
+img {
+    margin: 0;
+}
+.container__main h2 {
+    margin: 20px 0 20px 0;
+}
+.container__main {
+    padding: 10px;
+}
+.sectionskill__figure:hover {
+    opacity: 70%;
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.container__main--a{
+    background-color: white;
+    border: 1px solid none;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+@media screen and (max-width: 379px){
+    .sectionskill__detail--p1 {
+        text-align: left;
+        margin: 0 10px;
+        margin-bottom: 30px; 
+        font-size: larger;
+        font-weight: bold;       
+    }
+    .sectionskill__detail--p1politics {
+        text-align: center;
+    }
+    .sectionskill__detail--p1religion {
+        text-align: center;
+    }
+    .sectionskill__detail--rating {
+        text-align:center;
+    }
+    .sectionskill__detail {
+        border: 2px solid aqua;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 10px 0;
+        height: auto;
+        width: 80%;
+    }
+    .sectionskill__figure {
+        margin: 50px auto auto auto;
+        text-align: left;
+        background-color: aqua;
+        height: auto;
+        width: 80%;
+    }
+    .container__main--sectionskill {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 380px) and (max-width: 425px){
+    .sectionskill__detail--p1 {
+        text-align: left;
+        margin: 0 10px;
+        margin-bottom: 30px;
+        font-size: larger;
+        font-weight: bold; 
+    }
+    .sectionskill__detail--p1politics {
+        text-align: center;
+    }
+    .sectionskill__detail--p1religion {
+        text-align: center;
+    }
+    .sectionskill__detail--rating {
+        text-align:center;
+    }
+    .sectionskill__detail {
+        border: 2px solid aqua;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 10px 0;
+        height: auto;
+        width: 80%;
+    }
+    .sectionskill__figure {
+        margin: 50px auto auto auto;
+        text-align: left;
+        background-color: aqua;
+        height: auto;
+        width: 80%;
+    }
+    .container__main--sectionskill {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 767px){
+    .sectionskill__detail--p1 {
+        text-align: left;
+        margin: 0 10px;
+        margin-bottom: 30px;
+        font-size: larger;
+        font-weight: bold; 
+    }
+    .sectionskill__detail--p1politics {
+        text-align: center;
+    }
+    .sectionskill__detail--p1religion {
+        text-align: center;
+    }
+    .sectionskill__detail--rating {
+        margin: 0 10px;
+        text-align:center;
+    }
+    .sectionskill__detail {
+        border: 2px solid aqua;
+        margin: 30px auto;
+        border-radius: 10px;
+        padding: 10px 0;
+        height: auto;
+        width: 80%;
+    }
+    .sectionskill__figure {
+        margin: 50px auto auto auto;
+        text-align: center;
+        background-color: aqua;
+        height: auto;
+        width: 80%;
+    }
+    .container__main--sectionskill {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container__main--sectionskill {
+        width: 80%;
+        height: auto;
+    }
+    .container__main--sectionskill {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;  
+    }
+    .sectionskill__figure {
+        order: 1;
+        width: 40%;
+    }
+    .sectionskill__detail {
+        order: 2;
+        width: 50%;
+        height: auto;
+    }
+    .sectionskill__detail {
+        border: 2px solid aqua;
+        border-radius: 10px;
+        padding: 10px 0;
+    }
+    .sectionskill__detail--p1 {
+        text-align: left;
+        margin: 0 10px;
+        font-size: larger;
+        font-weight: bold;       
+    }
+    .sectionskill__detail--p1religion {
+        margin-bottom: 20%;
+    }
+    .sectionskill__detail--p1politics {
+        margin-bottom: 20%;
+    }
+    .sectionskill__detail--p1css {
+        margin-bottom: 15%;
+    }
+    .sectionskill__detail--p1html {
+        margin-bottom: 15%;
+    }
+    .sectionskill__detail--rating {
+        margin: 0 10px;  
+        text-align: center;
+        margin: 0;
+        position: relative;
+        top: 5%;      
+    }
+    .sectionskill__detail--ratingphilosophy {
+        margin-bottom: 15%;      
+    }
+    .sectionskill__figure {
+        text-align: left;
+        background-color: aqua;
+        height: 100%;
+        border: 5px solid aqua;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 1025px){
+    img {
+        border-radius: 15px;
+    }
+    .container__main--sectionskill {
+        width: 80%;
+        height: auto;
+    }
+    .container__main--sectionskill {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;       
+    }
+    .sectionskill__figure {
+        order: 1;
+        width: 45%;
+    }
+    .sectionskill__detail {
+        order: 2;
+        width: 45%;
+        height: auto;
+    }
+    .sectionskill__detail {
+        border: 2px solid aqua;      
+        border-radius: 15px;
+        padding: 15px 0;
+    }
+    .sectionskill__detail--p1 {
+        text-align: left;
+        margin: 0 15px;
+        font-size: larger;
+        font-weight: bold;    
+    }
+    .sectionskill__detail--p1religion {
+        margin-bottom: 20%;
+    }
+    .sectionskill__detail--p1politics {
+        margin-bottom: 20%;
+    }
+    .sectionskill__detail--p1css {
+        margin-bottom: 15%;
+    }
+    .sectionskill__detail--p1html {
+        margin-bottom: 15%;
+    }
+    .sectionskill__detail--rating {
+        text-align: center;  
+        margin: 0 15px;  
+        position: relative;
+        top: 5%;       
+    }
+    .sectionskill__detail--ratingphilosophy {
+        position: relative;
+        top: 20%;        
+    }
+    .sectionskill__figure {
+        text-align: left;
+        background-color: aqua;
+        height: 100%;
+        border: 8px solid aqua;
+        border-radius: 15px;
+    }
+}

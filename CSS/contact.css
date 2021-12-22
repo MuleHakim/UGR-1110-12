@@ -1,0 +1,138 @@
+.label {
+    display: none;
+}
+.section__form--submit {
+    margin-top: 50px;
+    width: 80%;
+    background-color: #09494C;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.section__form--submit:hover {
+    background-color: #b9e9eb;
+    color: 	black;
+}
+@media screen and (max-width: 379px){
+    ::placeholder { 
+        color: black;
+        font-size: 15px;
+    }
+    .section__form--submit:hover {
+        background-color: #b9e9eb;
+        color: 	black;
+      }
+      input[type=text], textarea, input[type=email]{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 50%;
+    }
+    .section__form {
+        margin-bottom: 30px;
+    }
+    .container__main {
+        padding: 0;       
+    }
+    .container__header--headerHakim {
+        display: none;
+    }
+}
+@media screen and (min-width: 380px) and (max-width: 425px){
+    ::placeholder { 
+        color: black;
+        font-size: 15px;
+    }
+    input[type=text], textarea, input[type=email]{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 50%;
+    }
+    .section__form {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 767px){
+    ::placeholder { 
+        color: black;
+        font-size: 15px;
+    }
+      input[type=text], textarea, input[type=email]{
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        width: 30%;
+        margin-right: 26%;
+    }
+    input[type=email]{
+        width: 40%;
+        margin-right: 16%;
+    }
+    textarea {
+        width: 50%;
+        margin-right: 6%;
+    }
+    .section__form {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    ::placeholder { 
+        color: black;
+        font-size: 15px;
+    }
+    .section__form--submit {
+        margin-top: 50px;
+        width: 80%;
+        background-color: #09494C;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        padding: 16px;
+        margin-left: 11%;
+    }
+    input[type=text], textarea, input[type=email]{
+        border: none;
+        border-radius: 12px;
+        padding: 12px;
+        width: 40%;
+        margin-right: 23%;
+    }
+    textarea {
+        width: 60%;
+        margin-right: 4%;
+    }
+    .section__form {
+        margin-bottom: 50px;
+    }
+}
+@media screen and (min-width: 1025px){
+    ::placeholder { 
+        color: black;
+        font-size: 20px;
+    }
+    .section__form--submit {
+        width: 80%;
+        background-color: #09494C;
+        color: white;
+        font-size: 20px;
+        border: none;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    input[type=email], textarea, input[type=text]{
+        border: none;
+        border-radius: 15px;
+        padding: 15px;
+        width: 50%;
+        margin-bottom: 50px;
+        margin-right: 11%;
+    }
+    textarea {
+        width: 60%;
+        margin-right: 0%;
+        font-size: 30px;       
+    }
+}
